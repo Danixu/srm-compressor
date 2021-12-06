@@ -3,3 +3,5 @@
 **.a
 external/retroArch/include
 external/retroArch/source
+srm-compressor
+*.srm*
