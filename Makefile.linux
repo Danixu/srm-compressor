@@ -1,5 +1,5 @@
 CPP=g++
-CPPFLAGS=
+CPPFLAGS=-O3 -s -ffunction-sections -Wl,-gc-sections
 
 ZLIB_MAKEFILE=Makefile.linux
 
