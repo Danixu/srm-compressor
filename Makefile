@@ -13,7 +13,7 @@ external/retroArch/libsrm.a:
 	cd external/retroArch && make -f Makefile.linux -j$(nproc)
 
 clean:
-	rm srm-compressor
+	rm -f srm-compressor
 
 clean_full: clean
 	cd external/zlib && make -f ../../data/makefile_zlib/Makefile.linux clean
